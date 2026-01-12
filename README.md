@@ -90,15 +90,21 @@ ________________________________________
 •	Ajustar forecast por etapa del ciclo de vida.
 •	Enfocar esfuerzos comerciales en clientes con 🟢 alta prioridad y MAPE bajo.
 
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/51a18548-70bb-4f7d-914d-78a21289fd85" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/e9262b40-2516-42cd-bbc9-65c0cd9da534" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/18fb825f-b72a-4eb7-b74f-9c510efe3715" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/27ff1d63-80b2-44e5-ae01-2c1c11786ac7" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/6802bacf-efdb-4f19-ade0-bce92a51845e" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/17bb0d01-69ab-47b6-945c-e3701c5ae0ac" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/34952c70-d28a-473c-a80e-d6524705382b" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/fff1d44f-5c64-435d-92a9-b58bf6cf9809" />
-<img width="1971" height="1125" alt="image" src="https://github.com/user-attachments/assets/32ae0f90-ffa1-4b9f-965e-8d3e0849f37c" />
+<img width="844" height="480" alt="image" src="https://github.com/user-attachments/assets/43e40e76-2b4b-4859-bca9-7b9c37caf46f" />
+_____________________________________________________________________________________________________________________________________________________
+<img width="855" height="477" alt="image" src="https://github.com/user-attachments/assets/38b5e1f2-fa60-4528-88fe-821638ef5fde" />
+_____________________________________________________________________________________________________________________________________________________
+<img width="851" height="471" alt="image" src="https://github.com/user-attachments/assets/29b8d309-c255-4dd8-918b-e0709b34f5f6" />
+_____________________________________________________________________________________________________________________________________________________
+<img width="854" height="479" alt="image" src="https://github.com/user-attachments/assets/a9f383c4-6e75-4ee6-928b-667062103ee0" />
+_____________________________________________________________________________________________________________________________________________________
+<img width="853" height="480" alt="image" src="https://github.com/user-attachments/assets/d9393aee-abf3-451d-999a-397d76ef3c15" />
+_____________________________________________________________________________________________________________________________________________________
+<img width="844" height="478" alt="image" src="https://github.com/user-attachments/assets/dbcebccd-8836-426c-8b0d-ab779c535f99" />
+
+
+
+
 
 
 
