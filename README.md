@@ -1,95 +1,62 @@
-📦 Product Portfolio Review — Análisis Estratégico de Productos con Ciencia de Datos
+# IBP Product Portfolio Deep Dive – Strategic Analysis
 
-Objetivo: Evaluar el desempeño del portafolio de productos de una compañía a través de técnicas avanzadas de ciencia de datos. Este análisis permite tomar decisiones 
-informadas sobre descontinuación, promoción, ajuste de precios, forecast y gestión de clientes clave.
-   
-📍 Este análisis forma parte de una iniciativa de IBP (Integrated Business Planning) con foco en rentabilidad, precisión de forecast y estrategias comerciales.
-________________________________________
-🧠 Tecnologías y Librerías
-•	Python (pandas, numpy, seaborn, matplotlib)
-•	Modelado estadístico: statsmodels, Prophet, XGBoost
-•	Clustering: KMeans, Isolation Forest
-•	Modelado de series temporales
-•	Análisis multivariado y segmentación
-________________________________________
-📁 Dataset
-Contiene más de 200,000 registros de ventas, forecasts, precios, responsables, canales y categorías de productos.
-Formato: Excel .xlsx
-Variables clave:
-•	Producto, Cliente, Responsable, Fecha, Precio, Facturado, Forecast, Ordenes, etc.
-________________________________________
-🔍 Módulos Analíticos Realizados
+Este proyecto representa un **análisis profundo del portafolio de productos**, diseñado para soportar las decisiones tomadas durante el **Product & Portfolio Review dentro del proceso IBP**.
 
-✅ 1. Revisión ABC Cruzada (Ingresos vs. Unidades)
-•	Clasificación de productos en A/B/C por ingresos y rotación.
-•	Priorización del portafolio.
-•	👉 Resultado: mayoría de productos se concentran en "C-C" (baja rotación y bajos ingresos).
+Mientras el dashboard ejecutivo facilita la conversación, este análisis provee el **soporte analítico** que permite decidir con confianza.
 
-✅ 2. Elasticidad Precio-Demanda
-•	Modelo log-log para calcular sensibilidad al precio.
-•	Etiquetado de productos como elásticos/inelásticos.
-•	👉 Resultado: más del 30% de productos presentan elasticidad alta (>-1), indicando sensibilidad al precio.
+## Contexto de negocio
+En portafolios complejos, una visión superficial puede ocultar:
+- Dependencia excesiva de pocos SKUs
+- Productos de bajo valor consumiendo recursos
+- Decisiones de crecimiento mal enfocadas
 
-✅ 3. Canibalización entre productos
-•	Análisis de correlación negativa entre pares de productos.
-•	👉 Resultado: No se detectaron correlaciones canibalizantes fuertes (< -0.5).
+Este análisis profundiza en esas dinámicas.
 
-✅ 4. Segmentación BCG con Machine Learning
-•	Variables: rentabilidad e ingreso.
-•	Clustering en 4 grupos: Estrellas, Vacas, Interrogantes, Perros.
-•	👉 Resultado: segmentación estratégica para inversión y promoción.
+## Problema que resuelve
+- Falta de entendimiento real del mix de productos
+- Priorización basada solo en volumen
+- Decisiones sin respaldo analítico suficiente
+- Product Reviews con bajo nivel de profundidad
 
-✅ 5. Erosión de Margen
-•	Margen calculado con Costo estimado (60% del precio).
-•	👉 Resultado: productos de alto volumen presentan márgenes negativos (pérdida).
+## Enfoque estratégico
+El enfoque no es describir el portafolio, sino **entender su contribución estratégica**, considerando:
+- Concentración de ventas
+- Mix y segmentación
+- Implicaciones para crecimiento y rentabilidad
 
-✅ 6. Forecast Accuracy: MAPE y Bias
-•	Evaluación de precisión del forecast consensuado por Categoria y Responsable.
-•	👉 Métricas: MAPE promedio, Bias promedio.
-•	👉 Resultado: categorías con alto volumen muestran MAPE > 60% y Bias negativos altos → sobreestimación sistemática.
+Diseñado desde el rol de **Strategic Planning & IBP Lead**.
 
-✅ 7. Análisis por Cliente
-•	Identificación de clientes críticos: alto volumen y baja precisión de forecast.
-•	Clasificación simbólica por prioridad: 🟢 Alta | 🟠 Media | 🔴 Baja.
+## Solución
+El análisis incluye:
+- Pareto extendido del portafolio
+- Segmentación estratégica de productos
+- Evaluación de mix y concentración
+- Identificación de focos de atención ejecutiva
 
-✅ 8. Ciclo de Vida del Producto
-•	Clasificación en Introducción, Crecimiento, Madurez o Declive.
-•	Basado en comparación de ventas 2023 vs 2024.
-•	👉 Resultado: más del 80% de los productos activos están en fase de Declive.
-________________________________________
+## Impacto en indicadores IBP
+- Mejor foco en SKUs estratégicos
+- Soporte a decisiones de priorización
+- Alineación entre portafolio y estrategia
+- Mejora en calidad de decisiones IBP
 
-📦 Product Portfolio Review — Análisis Estratégico de Productos con Ciencia de Datos
-Objetivo: Evaluar el desempeño del portafolio de productos de una compañía a través de técnicas avanzadas de ciencia de datos. Este análisis permite tomar decisiones informadas sobre descontinuación, promoción, ajuste de precios, forecast y gestión de clientes clave.
-   
-📍 Este análisis forma parte de una iniciativa de IBP (Integrated Business Planning) con foco en rentabilidad, precisión de forecast y estrategias comerciales.
-________________________________________
-🧠 Tecnologías y Librerías
-•	Python (pandas, numpy, seaborn, matplotlib)
-•	Modelado estadístico: statsmodels, Prophet, XGBoost
-•	Clustering: KMeans, Isolation Forest
-•	Modelado de series temporales
-•	Análisis multivariado y segmentación
-________________________________________
-📁 Dataset
-Contiene más de 200,000 registros de ventas, forecasts, precios, responsables, canales y categorías de productos.
-Formato: Excel .xlsx
-Variables clave:
-•	Producto, Cliente, Responsable, Fecha, Precio, Facturado, Forecast, Ordenes, etc.
-________________________________________
+## Decisiones habilitadas
+- ¿Dónde enfocar recursos comerciales y operativos?
+- ¿Qué productos requieren reglas diferenciadas?
+- ¿Dónde existe riesgo de concentración?
+- ¿Qué parte del portafolio no justifica inversión?
 
-📌 Conclusiones Estratégicas
-•	🟥 Gran parte del portafolio tiene bajo impacto comercial.
-•	📉 Amplia erosión de márgenes en productos de alto volumen.
-•	🟡 Forecast inconsistente en varias categorías.
-•	🔎 Urgente optimización de clientes y productos clave (prioridad de forecast y abastecimiento).
-________________________________________
-📎 Recomendaciones
-•	Reducir o eliminar productos tipo "C-C" y con margen negativo.
-•	Promocionar productos con alta elasticidad positiva (alto potencial de crecimiento).
-•	Revisar estrategia de precios.
-•	Ajustar forecast por etapa del ciclo de vida.
-•	Enfocar esfuerzos comerciales en clientes con 🟢 alta prioridad y MAPE bajo.
+## Relación con IBP
+Soporta directamente:
+- Product & Portfolio Review
+- Demand Review
+- Executive IBP Review
 
+## Rol desempeñado
+Strategic Planning & IBP Lead:
+- Diseño del análisis de portafolio
+- Definición de criterios de segmentación
+- Traducción de insights a decisiones ejecutivas
+  
 <img width="844" height="480" alt="image" src="https://github.com/user-attachments/assets/43e40e76-2b4b-4859-bca9-7b9c37caf46f" />
 _____________________________________________________________________________________________________________________________________________________
 <img width="855" height="477" alt="image" src="https://github.com/user-attachments/assets/38b5e1f2-fa60-4528-88fe-821638ef5fde" />
